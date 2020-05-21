@@ -1,0 +1,20 @@
+<%- include("partials/header"); -%>
+
+<h1>Stay safe</h1>
+
+<p> This is a simple COVID-19 information site.</p>
+<p> Type the name of the country you want information on, and then click on the button.</p>
+
+<div class="countries">
+<form class="form-inline" action="/" method="post">
+<span class="input-group-btn">
+<input class="form-control" type="text" name="country" placeholder="Country Name" autocomplete="on">
+<button type="submit" class="button btn btn-outline-secondary" name="country">Submit</button>
+</form>
+</div>
+<p class="p-special"> The information provided is regarding number of confirmed, recovered and active cases, as well as number of deaths.</p>
+
+<%- include("partials/footer"); -%>
+
+
+
